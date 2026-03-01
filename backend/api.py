@@ -23,6 +23,10 @@ def register():
     username = data.get("username")
     password = data.get("password")
 
+    if username is None or password is None:
+        username = request.args.get("username")
+        password = request.args.get("password")
+
     if not username or not password:
         return jsonify({"error": "Missing credentials"}), 400
 
