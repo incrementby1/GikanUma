@@ -4,8 +4,8 @@ import sqlite3
 import os
 
 NUM_RECORDS = 50 
-INPUT_FILE = "src/datagen.json"
-DB_FILE = "src/database.db"
+INPUT_FILE = "./datagen.json"
+DB_FILE = "./database.db"
 
 def init_database():
     # Ensure the directory exists

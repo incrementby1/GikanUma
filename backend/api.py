@@ -7,8 +7,8 @@ app = Flask(__name__)
 bcrypt = Bcrypt(app)
 CORS(app)
 
-DB_FILE = "./backend/database.db"
-IMAGE_DIR = "./innova-images"
+DB_FILE = "./database.db"
+IMAGE_DIR = "../../innova-images"
 
 
 def get_db_connection():
@@ -19,9 +19,11 @@ def get_db_connection():
 
 @app.route("/register", methods=["POST"])
 def register():
-    data = request.json
-    username = data.get("username")
-    password = data.get("password")
+    data = request.get_json(force=True)
+    if not data:
+        return jsonify({"error": "No JSON received"}), 400
+    username = data.get("username") or request.args.get("username")
+    password = data.get("password") or request.args.get("password")
 
     if not username or not password:
         return jsonify({"error": "Missing credentials"}), 400
@@ -45,8 +47,8 @@ def register():
 @app.route("/login", methods=["POST"])
 def login():
     data = request.json
-    username = data.get("username")
-    password = data.get("password")
+    username = data.get("username") or request.args.get("username")
+    password = data.get("password") or request.args.get("password")
 
     conn = get_db_connection()
     user = conn.execute(
