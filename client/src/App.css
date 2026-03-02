@@ -1,36 +1,26 @@
+:root {
+  --greenMustard: #697c29;
+  --greenLight: #97a95c;
+  --whiteBlue: #f1f1f1;
+}
+
 #root {
-  max-width: 1280px;
-  margin: 0 auto;
-  padding: 2rem;
-  text-align: center;
+  height: 100%;
+  width: 100%;
+  background-color: var(--whiteBlue);
 }
 
-.logo {
-  height: 6em;
-  padding: 1.5em;
-  will-change: filter;
-  transition: filter 300ms;
-}
-.logo:hover {
-  filter: drop-shadow(0 0 2em #646cffaa);
-}
-.logo.react:hover {
-  filter: drop-shadow(0 0 2em #61dafbaa);
-}
-
-@keyframes logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  a:nth-of-type(2) .logo {
-    animation: logo-spin infinite 20s linear;
-  }
+.bg-oblong {
+  position: absolute;
+  border-radius: 50%;
+  height: 50rem;
+  width: 200%;
+  top: -30rem;
+  left: -50%;
+  /* right: 50%; */
+  /* transform: translate(-50%); */
+  background-color: var(--greenMustard);
+  /* transform: translate(0, -10rem); */
 }
 
 @media (min-width: 600px) {
@@ -44,4 +34,3 @@
     width: 30%;
   }
 }
-
