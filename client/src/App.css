@@ -1,27 +1,56 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Reddit+Mono:wght@200..900&display=swap');
+/* 
+FONTS THAT I USED: 
+- Inter
+- Reddit Mono
+*/
+
 :root {
   --greenMustard: #697c29;
   --greenLight: #97a95c;
   --whiteBlue: #f1f1f1;
 }
 
-#root {
+/* -------- */
+
+html, body, #root {
   height: 100%;
   width: 100%;
+}
+
+body {
   background-color: var(--whiteBlue);
 }
 
+/* DEBUGGING */
+#root *{
+  border: 1px solid red;
+}
+
+/* -------- */
+
 .bg-oblong {
+  z-index: 1;
   position: absolute;
   border-radius: 50%;
-  height: 50rem;
-  width: 200%;
-  top: -30rem;
-  left: -50%;
-  /* right: 50%; */
-  /* transform: translate(-50%); */
+  width: 556px;
+  height: 420px;
+  top: -160px;
+  left: -25%;
   background-color: var(--greenMustard);
-  /* transform: translate(0, -10rem); */
 }
+
+/*
+SEARCH BAR
+*/
+
+.searchContainer {
+  position: absolute;
+  display: flex;
+  z-index: 2;
+}
+
+/* ---- BREAKPOINTS ---- */
 
 @media (min-width: 600px) {
   .card {

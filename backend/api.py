@@ -70,6 +70,22 @@ def product_list():
     conn.close()
     return jsonify([dict(row) for row in products])
 
+@app.route("/search", methods=["GET"])
+def search():
+    query = request.args.get("q")
+
+    if not query:
+        return jsonify([])
+
+    cons = get_db_connection()
+    cursor = cons.cursor()
+
+    cursor.execute("SELECT * FROM products WHERE product LIKE ?", (f"%{query}%",))
+
+    results = cursor.fetchall()
+    cons.close()
+
+    return jsonify([dict(row) for row in results])
 
 @app.route("/product-images/<filename>", methods=["GET"])
 def get_image(filename):
