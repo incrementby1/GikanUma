@@ -392,7 +392,7 @@ WELCOME MESSAGE
 .product-card-detail .product {
   margin-left: 10px;
   font-family: 'Inter';
-  font-size: 15px;
+  font-size: 12px;
   color: white;
 }
 
@@ -408,7 +408,7 @@ WELCOME MESSAGE
   font-family: 'Reddit Mono';
   padding: 5px;
   background-color: var(--greenMustard);
-  font-size: 10px;
+  font-size: 8px;
   color: white;
 }
 
@@ -418,7 +418,7 @@ WELCOME MESSAGE
   border-bottom-right-radius: 15px;
   padding: 5px;
   background-color: red;
-  font-size: 10px;
+  font-size: 8px;
   color: white;
 }
 
@@ -449,5 +449,24 @@ WELCOME MESSAGE
   }
   .icon2 {
     right: 20% !important;
+  }
+
+  .priceName-container {
+    display: flex;
+    align-items: center;
+    gap: 5px;
+    background-color: black;
+    border-top-right-radius: 25px;
+    border-bottom-right-radius: 25px;
+  }
+
+  .product-card-detail .product {
+    font-size: 15px;
+  }
+  .farmgate {
+    font-size: 10px;
+  }
+  .market {
+    font-size: 10px;
   }
 }

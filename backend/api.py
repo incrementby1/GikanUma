@@ -25,6 +25,9 @@ class Application:
         self._app.add_url_rule(
             "/product-images/<filename>", view_func=self.product_images, methods=["GET"]
         )
+        self._app.add_url_rule(
+            "/search", view_func=self.search, methods=["GET"]
+        )
 
     @property  # Creates a connection every time it is accessed.
     def db(self) -> sqlite3.Connection:
@@ -72,6 +75,22 @@ class Application:
 
     def product_images(self, filename) -> Response:
         return send_from_directory(IMAGE_DIR, filename)
+    
+    def search(self) -> Response:
+        query = request.args.get("q")
+
+        if not query:
+            return jsonify([])
+
+        db = self.db
+        cursor = db.execute(
+            "SELECT * FROM products WHERE product LIKE ?",
+            (f"%{query}%",),
+        )
+        results = cursor.fetchall()
+        db.close()
+
+        return jsonify([dict(row) for row in results])
 
 
 if __name__ == "__main__":
