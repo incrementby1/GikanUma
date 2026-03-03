@@ -18,8 +18,6 @@ Originally designed and built for mock MVP build for UP Science Guild's Innovati
 ```bash
 cd client
 npm i
-cd ../api
-npm i
 ```
 
 ## Usage
