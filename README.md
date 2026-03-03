@@ -2,32 +2,9 @@
 
 ![GitHub License](https://img.shields.io/github/license/incrementby1/GikanUma) ![npm version](https://img.shields.io/npm/v/react)
 
-Originally designed and built for MVP build/deployment for UP Science Guild's Innovation Cup 2026 under "Team Uma".
+A basic consumer view of GikanUma
 
-// To do will be deleted in release
-
-<details>
-<summary>todo</summary>
- - [ ] Supabase | User Auth 
- - [ ] Lean | Checkout API for Gcash Payment
- - [ ] Supabase | Setup user profile table
- - [ ] Figma | Frontend Design
- - [ ] ChartJS | For mock up data in Seller Dashboard
- - [ ] Sir wants us to do ERD daw
-</details>
-
-<details>
-<summary>Features</summary>
- - Graph
- - Basic User Auth
- - DB
- - Seller Listing
- - Avg Price of Seller
- - [MOCK] MAP/GPS trakcer
- - [MOCK] PHIL ID Verification
- - [MOCK] LGU Verification
- - [MOCK] Receipt Creation
-</details>
+Originally designed and built for mock MVP build for UP Science Guild's Innovation Cup 2026 under "Team Uma".
 
 ## Prerequisites
 
@@ -39,9 +16,9 @@ Originally designed and built for MVP build/deployment for UP Science Guild's In
 ## Installation
 
 ```bash
-cd client # frontend
+cd client
 npm i
-cd ../api # backend (if ever go with sqlite)
+cd ../api
 npm i
 ```
 
@@ -56,13 +33,12 @@ cd client
 npm run dev
 ```
 
-### Backend (Express)
+### Backend (SQLITE3)
 
-Runs the api server using nodemon.
+Runs the api server using flask.
 
 ```bash
-cd api
-npm run dev
+python install -r requirement.txt
+python ./backend/datagen.py
+python ./backend/api.py
 ```
-
-TBD: // The frontend runs on ${PORT} and the backend runs on port ${PORT}.
