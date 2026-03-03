@@ -1,41 +1,74 @@
-@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Reddit+Mono:wght@200..900&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Reddit+Mono:wght@200..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
 /* 
 FONTS THAT I USED: 
 - Inter
 - Reddit Mono
+- Poppins
 */
 
 :root {
   --greenMustard: #697c29;
   --greenLight: #97a95c;
+  --lighterGreen: #efffbc;
   --whiteBlue: #f1f1f1;
 }
 
 /* -------- */
 
-html, body, #root {
+html,
+body,
+#root {
   height: 100%;
   width: 100%;
+  display: flex;
 }
 
 body {
   background-color: var(--whiteBlue);
 }
 
-/* DEBUGGING */
-#root *{
-  border: 1px solid red;
+input {
+  appearance: none;
+  outline: none;
+  border: none;
+  font-family: "Inter";
 }
+
+#root {
+  flex-direction: column;
+}
+
+#root * {
+  z-index: 1;
+}
+
+.desktopView {
+  width: 100%;
+  color: black;
+  font-family: "Inter";
+}
+
+/* DEBUGGING */
+/* #root * {
+  border: 1px solid red;
+} */
 
 /* -------- */
 
+.oblong-container {
+  position: absolute;
+  height: 300px;
+  width: 100%;
+  overflow: hidden;
+}
+
 .bg-oblong {
-  z-index: 1;
+  z-index: 0;
   position: absolute;
   border-radius: 50%;
   width: 556px;
   height: 420px;
-  top: -160px;
+  top: -140px;
   left: -25%;
   background-color: var(--greenMustard);
 }
@@ -44,11 +77,149 @@ body {
 SEARCH BAR
 */
 
-.searchContainer {
-  position: absolute;
+.search-wrap {
+  width: 100%;
   display: flex;
-  z-index: 2;
+  justify-content: center;
 }
+
+.searchContainer {
+  margin-top: 25px;
+  position: relative;
+  display: flex;
+  width: 100%;
+  z-index: 1;
+  justify-content: center;
+}
+
+.searchContainer form {
+  display: flex;
+  align-items: center;
+}
+
+.icon1,
+.icon2 {
+  width: 20px;
+  height: 20px;
+  z-index: 2 !important;
+  position: absolute;
+}
+
+.searchContainer .icon1 {
+  left: 65px;
+}
+.searchContainer .icon2 {
+  right: 65px;
+  padding: 0px;
+  appearance: none;
+  background-color: transparent;
+  border: none;
+}
+
+.searchBar {
+  width: 276px;
+  height: 40px;
+  color: var(--lighterGreen);
+  background-color: var(--greenLight);
+  border-radius: 25px;
+  border: 1px solid var(--lighterGreen);
+  padding: 20px;
+  padding-left: 50px;
+  box-shadow: 0px 4px 6px 0px var(--lighterGreen);
+}
+
+.searchBar::placeholder {
+  color: var(--lighterGreen);
+}
+/*
+WELCOME MESSAGE
+*/
+
+.welcome-message {
+  margin-top: 36px;
+  display: flex;
+  justify-content: center;
+  width: 100%;
+}
+
+.welcome-text {
+  color: white;
+}
+
+.welcome-wrap {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  width: 80%;
+  flex-direction: row;
+}
+
+.t1 {
+  font-size: 24px;
+  font-family: "Inter";
+  margin: 0px;
+}
+.t2 {
+  margin: 3px;
+  font-family: "Poppins";
+  font-size: 10px;
+}
+
+/* BANNER */
+
+.bannerContainer {
+  margin-top: 30px;
+  position: relative;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+
+.banner {
+  border-radius: 25px;
+  background-color: white;
+  width: 90%;
+  height: 245px;
+  box-shadow: 0px 4px 5px 1px black;
+  box-sizing: border-box;
+  padding-left: 15px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.banner .banner-msg {
+  padding-top: 20px;
+  padding-right: 10px;
+  width: 40%;
+  overflow-y: scroll;
+}
+
+.banner .t1 {
+  display: inline;
+  padding: 5px;
+  background-color: black;
+  color: white;
+}
+
+.banner .t2 {
+  margin-top: 20px;
+  font-size: 8px;
+}
+
+.banner-img {
+  border: 2px solid black;
+  border-radius: 25px;
+  border-top-left-radius: 0px;
+  border-bottom-left-radius: 0px;
+  background-position: right;
+  background-size: 200%;
+  height: 100%;
+  width: 60%;
+  background-repeat: no-repeat;
+  background-image: url(https://i.imgur.com/t0x0dBR.jpeg);
+}
+
+/*  */
 
 /* ---- BREAKPOINTS ---- */
 

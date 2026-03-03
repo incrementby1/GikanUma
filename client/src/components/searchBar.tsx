@@ -10,13 +10,13 @@ function searchBar() {
   const [query, setQuery] = useState<string>("");
   const navigate = useNavigate();
   const location = useLocation();
-  
+
   // const [results, setResults] = useState<Product[]>([]);
 
   const handleSearch = async (e: any) => {
     e.preventDefault();
     if (!query.trim()) return;
-    
+
     navigate(`/result?q=${encodeURI(query)}`);
   };
 
@@ -29,7 +29,7 @@ function searchBar() {
   //   try {
   //     const res = await fetch(`http://localhost:5000/search?q=${query}`);
   //     if (!res.ok) throw new Error("Network response was not ok");
-      
+
   //     const data: Product[] = await res.json();
   //     setResults(data);
   //   }  catch (err) {
@@ -39,12 +39,71 @@ function searchBar() {
   // }
 
   return (
-      <section className="searchContainer">
-        <form onSubmit={handleSearch}>
-          <input type="text" placeholder="Search here..." value={query} onChange={(e) => setQuery(e.target.value)} />
-          <button type="submit">Search</button>
-        </form>
-      </section>
+    <section className="searchContainer">
+      <form onSubmit={handleSearch}>
+        <div className="icon1">
+          <svg
+            width="20"
+            height="20"
+            viewBox="0 0 20 20"
+            fill="none"
+            xmlns="http://www.w3.org/2000/svg"
+          >
+            <g clip-path="url(#clip0_68_11508)">
+              <path
+                d="M17.5 17.5L13.875 13.875M15.8333 9.16667C15.8333 12.8486 12.8486 15.8333 9.16667 15.8333C5.48477 15.8333 2.5 12.8486 2.5 9.16667C2.5 5.48477 5.48477 2.5 9.16667 2.5C12.8486 2.5 15.8333 5.48477 15.8333 9.16667Z"
+                stroke="#EFFFBC"
+                stroke-width="4"
+                stroke-linecap="round"
+                stroke-linejoin="round"
+              />
+            </g>
+            <defs>
+              <clipPath id="clip0_68_11508">
+                <rect width="20" height="20" fill="white" />
+              </clipPath>
+            </defs>
+          </svg>
+        </div>
+        <input
+          className="searchBar"
+          type="text"
+          placeholder="Search here..."
+          value={query}
+          onChange={(e) => setQuery(e.target.value)}
+        />
+        <button type="submit" className="icon2">
+          <svg
+            width="20"
+            height="20"
+            viewBox="0 0 20 20"
+            fill="none"
+            xmlns="http://www.w3.org/2000/svg"
+          >
+            <circle cx="10" cy="10" r="10" fill="#EFFFBC" />
+            <g clip-path="url(#clip0_68_11509)">
+              <path
+                d="M16.4744 5.67308H4.29489L9.16669 11.434V15.4167L11.6026 16.6346V11.434L16.4744 5.67308Z"
+                stroke="#97A95C"
+                stroke-width="1.5"
+                stroke-linecap="round"
+                stroke-linejoin="round"
+              />
+            </g>
+            <defs>
+              <clipPath id="clip0_68_11509">
+                <rect
+                  width="14.6154"
+                  height="14.6154"
+                  fill="white"
+                  transform="translate(3.07693 3.84616)"
+                />
+              </clipPath>
+            </defs>
+          </svg>
+        </button>
+      </form>
+    </section>
   );
 }
 
