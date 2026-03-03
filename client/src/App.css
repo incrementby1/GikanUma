@@ -1,42 +1,453 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Reddit+Mono:wght@200..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+/* 
+FONTS THAT  WAS USED: 
+- Inter
+- Reddit Mono
+- Poppins
+*/
+
+:root {
+  --greenMustard: #697c29;
+  --greenLight: #97a95c;
+  --lighterGreen: #efffbc;
+  --whiteBlue: #f1f1f1;
+}
+
+/* -------- */
+
+html,
+body,
 #root {
-  max-width: 1280px;
-  margin: 0 auto;
-  padding: 2rem;
+  height: 100%;
+  width: 100%;
+  display: flex;
+}
+
+body {
+  background-color: var(--whiteBlue);
+}
+
+input {
+  appearance: none;
+  outline: none;
+  border: none;
+  font-family: 'Inter';
+}
+
+#root {
+  flex-direction: column;
+}
+
+#root * {
+  z-index: 1;
+}
+
+.desktopView {
+  width: 100%;
+  color: black;
+  font-family: 'Inter';
+}
+
+/* DEBUGGING */
+/* #root * {
+  border: 1px solid red;
+} */
+
+/* -------- */
+
+.oblong-container {
+  position: absolute;
+  height: 300px;
+  width: 100%;
+  overflow: hidden;
+  display: flex;
+  justify-content: center;
+}
+
+.bg-oblong {
+  z-index: 0;
+  position: absolute;
+  border-radius: 50%;
+  width: 556px;
+  height: 420px;
+  top: -140px;
+  background-color: var(--greenMustard);
+}
+
+/*
+SEARCH BAR
+*/
+
+.search-wrap {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+
+.searchContainer {
+  margin-top: 25px;
+  position: relative;
+  display: flex;
+  width: 100%;
+  z-index: 1;
+  justify-content: center;
+}
+
+.searchContainer form {
+  display: flex;
+  align-items: center;
+}
+
+.icon1,
+.icon2 {
+  width: 20px;
+  height: 20px;
+  z-index: 2 !important;
+  position: absolute;
+  padding: 0px;
+  appearance: none;
+  background-color: transparent;
+  border: none;
+}
+
+.searchContainer .icon1 {
+  left: 65px;
+}
+.searchContainer .icon2 {
+  right: 65px;
+}
+
+.searchBar {
+  width: 276px;
+  height: 40px;
+  color: var(--lighterGreen);
+  background-color: var(--greenLight);
+  border-radius: 25px;
+  border: 1px solid var(--lighterGreen);
+  padding: 20px;
+  padding-left: 50px;
+  box-shadow: 0px 4px 6px 0px var(--lighterGreen);
+}
+
+.searchBar::placeholder {
+  color: var(--lighterGreen);
+}
+
+/*
+MENU BAR
+*/
+
+.menu-wrap {
+  position: fixed;
+  z-index: 2 !important;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  height: 60px;
+  bottom: 50px;
+}
+
+.menu-container .chips {
+  width: 50px;
+  height: 50px;
+  padding: 0px;
+  appearance: none;
+  background-color: black;
+  border: none;
+}
+
+.menu-container {
+  position: relative;
+  background-color: black;
+  width: 80%;
+  border-radius: 25px;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.searchBar::placeholder {
+  color: var(--lighterGreen);
+}
+
+/*
+WELCOME MESSAGE
+*/
+
+.welcome-message {
+  margin-top: 36px;
+  display: flex;
+  justify-content: center;
+  width: 100%;
+}
+
+.welcome-text {
+  color: white;
+}
+
+.welcome-wrap {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  width: 80%;
+  flex-direction: row;
+}
+
+.t1 {
+  font-size: 24px;
+  font-family: 'Inter';
+  margin: 0px;
+}
+.t2 {
+  margin: 3px;
+  font-family: 'Poppins';
+  font-size: 10px;
+}
+
+/* BANNER */
+
+.bannerContainer {
+  margin-top: 30px;
+  position: relative;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+
+.banner {
+  border-radius: 25px;
+  background-color: white;
+  width: 90%;
+  height: 245px;
+  box-shadow: 0px 4px 5px 1px black;
+  box-sizing: border-box;
+  padding-left: 15px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.banner .banner-msg {
+  padding-top: 20px;
+  padding-right: 10px;
+  width: 40%;
+  overflow-y: scroll;
+}
+
+.banner .t1 {
+  display: inline;
+  font-size: 20px;
+  padding: 5px;
+  background-color: black;
+  color: white;
+}
+
+.banner .t2 {
+  margin-top: 20px;
+  font-size: 8px;
+}
+
+.banner-img {
+  border: 2px solid black;
+  border-radius: 25px;
+  border-top-left-radius: 0px;
+  border-bottom-left-radius: 0px;
+  background-position: right;
+  background-size: 200%;
+  height: 100%;
+  width: 60%;
+  background-repeat: no-repeat;
+  background-image: url(https://i.imgur.com/t0x0dBR.jpeg);
+}
+
+/*  PRODUCT TYPE */
+
+.product-listing {
+  margin-top: 30px;
   text-align: center;
 }
 
-.logo {
-  height: 6em;
-  padding: 1.5em;
-  will-change: filter;
-  transition: filter 300ms;
-}
-.logo:hover {
-  filter: drop-shadow(0 0 2em #646cffaa);
-}
-.logo.react:hover {
-  filter: drop-shadow(0 0 2em #61dafbaa);
+.product-list-container {
+  display: flex;
+  margin-top: 30px;
+  flex-wrap: wrap;
+  gap: 20px;
+  justify-content: center;
 }
 
-@keyframes logo-spin {
-  from {
-    transform: rotate(0deg);
+.product-type {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 5px;
+}
+
+.product-type .t2 {
+  text-align: center;
+}
+
+.product-img {
+  box-sizing: border-box;
+  overflow: hidden;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 55px;
+  height: 55px;
+  border-radius: 25px;
+  box-shadow: 0px 5px 5px 0px black;
+}
+
+.product-img img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.product-container {
+  margin-top: 15px;
+  overflow-x: scroll;
+  gap: 15px;
+  display: flex;
+  width: 100%;
+  align-items: center;
+  justify-content: flex-start;
+  flex-direction: row;
+}
+
+.product-list-container {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  justify-content: center;
+}
+
+.product-card {
+  border-radius: 25px;
+  box-shadow: 0px 5px 5px 0px black;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  flex: 0 0 calc(50% - 20px);
+  max-width: calc(50% - 20px);
+  height: 300px;
+  box-sizing: border-box;
+  overflow: hidden;
+  height: 250px;
+  background-color: white;
+}
+
+.product-list-img {
+  width: 100%;
+  height: 150px;
+  overflow: hidden;
+  border-top-left-radius: 25px;
+  border-top-right-radius: 25px;
+}
+
+.product-card-detail {
+  height: 50%;
+  width: 100%;
+  padding: 10px;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+  font-size: 10px;
+}
+
+.product-card-detail p {
+  margin: 1px;
+}
+
+.priceName-container {
+  display: flex;
+  align-items: center;
+  gap: 5px;
+  background-color: black;
+  border-top-right-radius: 25px;
+  border-bottom-right-radius: 25px;
+}
+
+.location-container {
+  margin-top: 2px;
+  display: flex;
+  justify-content: center;
+  gap: 5px;
+}
+
+.prices {
+  display: flex;
+}
+
+.farmer {
+  font-family: 'Poppins';
+  font-size: 10px;
+}
+
+.rating-container {
+  margin-top: 10px;
+  display: flex;
+}
+
+.product-card-detail .product {
+  margin-left: 10px;
+  font-family: 'Inter';
+  font-size: 15px;
+  color: white;
+}
+
+.location {
+  font-family: 'Reddit Mono';
+}
+
+.ratings {
+  font-family: 'Reddit Mono';
+}
+
+.farmgate {
+  font-family: 'Reddit Mono';
+  padding: 5px;
+  background-color: var(--greenMustard);
+  font-size: 10px;
+  color: white;
+}
+
+.market {
+  font-family: 'Reddit Mono';
+  border-top-right-radius: 15px;
+  border-bottom-right-radius: 15px;
+  padding: 5px;
+  background-color: red;
+  font-size: 10px;
+  color: white;
+}
+
+.product-card img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  object-position: center;
+}
+
+.product-list {
+  margin-top: 30px;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+
+.product-list .t1 {
+  font-size: 20px;
+  margin: 0 25px;
+}
+
+/* ---- BREAKPOINTS ---- */
+
+@media (min-width: 400px) {
+  .icon1 {
+    left: 20% !important;
   }
-  to {
-    transform: rotate(360deg);
+  .icon2 {
+    right: 20% !important;
   }
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  a:nth-of-type(2) .logo {
-    animation: logo-spin infinite 20s linear;
-  }
-}
-
-.card {
-  padding: 2em;
-}
-
-.read-the-docs {
-  color: #888;
 }

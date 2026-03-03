@@ -1,0 +1,107 @@
+[
+  {
+    "id": 1,
+    "product": "cabbage",
+    "image": "../innova-images/cabbage.jpg"
+  },
+  {
+    "id": 2,
+    "product": "cassava",
+    "image": "../innova-images/cassava.jpg"
+  },
+  {
+    "id": 3,
+    "product": "gabi",
+    "image": "../innova-images/gabi.jpg"
+  },
+  {
+    "id": 4,
+    "product": "garlic",
+    "image": "../innova-images/garlic.jpg"
+  },
+  {
+    "id": 5,
+    "product": "ginger",
+    "image": "../innova-images/ginger.jpg"
+  },
+  {
+    "id": 6,
+    "product": "kalabasa",
+    "image": "../innova-images/kalabasa.jpg"
+  },
+  {
+    "id": 7,
+    "product": "lettuce",
+    "image": "../innova-images/lettuce.jpg"
+  },
+  {
+    "id": 8,
+    "product": "mais",
+    "image": "../innova-images/mais.jpg"
+  },
+  {
+    "id": 9,
+    "product": "mungo",
+    "image": "../innova-images/mungo.jpg"
+  },
+  {
+    "id": 10,
+    "product": "niyog",
+    "image": "../innova-images/niyog.jpg"
+  },
+  {
+    "id": 11,
+    "product": "onion",
+    "image": "../innova-images/onion.jpg"
+  },
+  {
+    "id": 13,
+    "product": "palay",
+    "image": "../innova-images/palay.jpg"
+  },
+  {
+    "id": 14,
+    "product": "peanuts",
+    "image": "../innova-images/peanuts.jpg"
+  },
+  {
+    "id": 15,
+    "product": "pepper",
+    "image": "../innova-images/pepper.jpg"
+  },
+  {
+    "id": 16,
+    "product": "potatoes",
+    "image": "../innova-images/potatoes.jpg"
+  },
+  {
+    "id": 17,
+    "product": "saba",
+    "image": "../innova-images/saba.jpg"
+  },
+  {
+    "id": 18,
+    "product": "sayote",
+    "image": "../innova-images/sayote.jpg"
+  },
+  {
+    "id": 19,
+    "product": "sigarilyas",
+    "image": "../innova-images/sigarilyas.jpg"
+  },
+  {
+    "id": 20,
+    "product": "sitaw",
+    "image": "../innova-images/sitaw.jpg"
+  },
+  {
+    "id": 21,
+    "product": "turmeric",
+    "image": "../innova-images/turmeric.jpg"
+  },
+  {
+    "id": 22,
+    "product": "ube",
+    "image": "../innova-images/ube.jpg"
+  }
+]

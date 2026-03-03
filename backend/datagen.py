@@ -4,8 +4,8 @@ import sqlite3
 import os
 
 NUM_RECORDS = 50 
-INPUT_FILE = "src/datagen.json"
-DB_FILE = "src/database.db"
+INPUT_FILE = "./datagen.json"
+DB_FILE = "./database.db"
 
 def init_database():
     # Ensure the directory exists
@@ -26,8 +26,8 @@ def init_database():
                         location TEXT, 
                         product TEXT, 
                         rating REAL, 
-                        num_ratings INTEGER, 
-                        image_url TEXT, 
+                        number_of_ratings INTEGER, 
+                        image TEXT, 
                         farmgate_price REAL, 
                         market_price REAL)''')
     conn.commit()
@@ -60,7 +60,7 @@ def seed_data():
         mk_price = round(base_mk * random.uniform(0.9, 1.1), 2)
 
         cursor.execute('''INSERT INTO products 
-            (farmer, location, product, rating, num_ratings, image_url, farmgate_price, market_price)
+            (farmer, location, product, rating, number_of_ratings, image, farmgate_price, market_price)
             VALUES (?, ?, ?, ?, ?, ?, ?, ?)''', 
             (farmer, location, product, rating, num_ratings, f"{product}.jpg", fg_price, mk_price))
     conn.commit()
