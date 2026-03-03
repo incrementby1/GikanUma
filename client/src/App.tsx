@@ -7,6 +7,7 @@ import SearchBar from "./components/searchBar.tsx";
 import ProductType from "./components/productType.tsx";
 import ProductList from "./components/productList.tsx";
 import SearchResult from "./components/searchResult.tsx";
+import MenuBar from "./components/menuBar.tsx";
 
 function App() {
   const [isMobile, setIsMobile] = useState(window.innerWidth < 720);
@@ -20,6 +21,7 @@ function App() {
             path="/"
             element={
               <>
+              <MenuBar />
                 <div className="oblong-container">
                   <div className="bg-oblong"></div>
                 </div>

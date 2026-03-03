@@ -1,6 +1,6 @@
-@import url("https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Reddit+Mono:wght@200..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Reddit+Mono:wght@200..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
 /* 
-FONTS THAT I USED: 
+FONTS THAT  WAS USED: 
 - Inter
 - Reddit Mono
 - Poppins
@@ -31,7 +31,7 @@ input {
   appearance: none;
   outline: none;
   border: none;
-  font-family: "Inter";
+  font-family: 'Inter';
 }
 
 #root {
@@ -45,7 +45,7 @@ input {
 .desktopView {
   width: 100%;
   color: black;
-  font-family: "Inter";
+  font-family: 'Inter';
 }
 
 /* DEBUGGING */
@@ -60,6 +60,8 @@ input {
   height: 300px;
   width: 100%;
   overflow: hidden;
+  display: flex;
+  justify-content: center;
 }
 
 .bg-oblong {
@@ -69,7 +71,6 @@ input {
   width: 556px;
   height: 420px;
   top: -140px;
-  left: -25%;
   background-color: var(--greenMustard);
 }
 
@@ -103,6 +104,10 @@ SEARCH BAR
   height: 20px;
   z-index: 2 !important;
   position: absolute;
+  padding: 0px;
+  appearance: none;
+  background-color: transparent;
+  border: none;
 }
 
 .searchContainer .icon1 {
@@ -110,10 +115,6 @@ SEARCH BAR
 }
 .searchContainer .icon2 {
   right: 65px;
-  padding: 0px;
-  appearance: none;
-  background-color: transparent;
-  border: none;
 }
 
 .searchBar {
@@ -131,6 +132,44 @@ SEARCH BAR
 .searchBar::placeholder {
   color: var(--lighterGreen);
 }
+
+/*
+MENU BAR
+*/
+
+.menu-wrap {
+  position: fixed;
+  z-index: 2 !important;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  height: 60px;
+  bottom: 50px;
+}
+
+.menu-container .chips {
+  width: 50px;
+  height: 50px;
+  padding: 0px;
+  appearance: none;
+  background-color: black;
+  border: none;
+}
+
+.menu-container {
+  position: relative;
+  background-color: black;
+  width: 80%;
+  border-radius: 25px;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.searchBar::placeholder {
+  color: var(--lighterGreen);
+}
+
 /*
 WELCOME MESSAGE
 */
@@ -156,12 +195,12 @@ WELCOME MESSAGE
 
 .t1 {
   font-size: 24px;
-  font-family: "Inter";
+  font-family: 'Inter';
   margin: 0px;
 }
 .t2 {
   margin: 3px;
-  font-family: "Poppins";
+  font-family: 'Poppins';
   font-size: 10px;
 }
 
@@ -196,6 +235,7 @@ WELCOME MESSAGE
 
 .banner .t1 {
   display: inline;
+  font-size: 20px;
   padding: 5px;
   background-color: black;
   color: white;
@@ -219,18 +259,195 @@ WELCOME MESSAGE
   background-image: url(https://i.imgur.com/t0x0dBR.jpeg);
 }
 
-/*  */
+/*  PRODUCT TYPE */
+
+.product-listing {
+  margin-top: 30px;
+  text-align: center;
+}
+
+.product-list-container {
+  display: flex;
+  margin-top: 30px;
+  flex-wrap: wrap;
+  gap: 20px;
+  justify-content: center;
+}
+
+.product-type {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 5px;
+}
+
+.product-type .t2 {
+  text-align: center;
+}
+
+.product-img {
+  box-sizing: border-box;
+  overflow: hidden;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 55px;
+  height: 55px;
+  border-radius: 25px;
+  box-shadow: 0px 5px 5px 0px black;
+}
+
+.product-img img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.product-container {
+  margin-top: 15px;
+  overflow-x: scroll;
+  gap: 15px;
+  display: flex;
+  width: 100%;
+  align-items: center;
+  justify-content: flex-start;
+  flex-direction: row;
+}
+
+.product-list-container {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  justify-content: center;
+}
+
+.product-card {
+  border-radius: 25px;
+  box-shadow: 0px 5px 5px 0px black;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  flex: 0 0 calc(50% - 20px);
+  max-width: calc(50% - 20px);
+  height: 300px;
+  box-sizing: border-box;
+  overflow: hidden;
+  height: 250px;
+  background-color: white;
+}
+
+.product-list-img {
+  width: 100%;
+  height: 150px;
+  overflow: hidden;
+  border-top-left-radius: 25px;
+  border-top-right-radius: 25px;
+}
+
+.product-card-detail {
+  height: 50%;
+  width: 100%;
+  padding: 10px;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+  font-size: 10px;
+}
+
+.product-card-detail p {
+  margin: 1px;
+}
+
+.priceName-container {
+  display: flex;
+  align-items: center;
+  gap: 5px;
+  background-color: black;
+  border-top-right-radius: 25px;
+  border-bottom-right-radius: 25px;
+}
+
+.location-container {
+  margin-top: 2px;
+  display: flex;
+  justify-content: center;
+  gap: 5px;
+}
+
+.prices {
+  display: flex;
+}
+
+.farmer {
+  font-family: 'Poppins';
+  font-size: 10px;
+}
+
+.rating-container {
+  margin-top: 10px;
+  display: flex;
+}
+
+.product-card-detail .product {
+  margin-left: 10px;
+  font-family: 'Inter';
+  font-size: 15px;
+  color: white;
+}
+
+.location {
+  font-family: 'Reddit Mono';
+}
+
+.ratings {
+  font-family: 'Reddit Mono';
+}
+
+.farmgate {
+  font-family: 'Reddit Mono';
+  padding: 5px;
+  background-color: var(--greenMustard);
+  font-size: 10px;
+  color: white;
+}
+
+.market {
+  font-family: 'Reddit Mono';
+  border-top-right-radius: 15px;
+  border-bottom-right-radius: 15px;
+  padding: 5px;
+  background-color: red;
+  font-size: 10px;
+  color: white;
+}
+
+.product-card img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  object-position: center;
+}
+
+.product-list {
+  margin-top: 30px;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+
+.product-list .t1 {
+  font-size: 20px;
+  margin: 0 25px;
+}
 
 /* ---- BREAKPOINTS ---- */
 
-@media (min-width: 600px) {
-  .card {
-    width: 48%;
+@media (min-width: 400px) {
+  .icon1 {
+    left: 20% !important;
   }
-}
-
-@media (min-width: 1024px) {
-  .card {
-    width: 30%;
+  .icon2 {
+    right: 20% !important;
   }
 }

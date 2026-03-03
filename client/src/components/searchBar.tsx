@@ -11,8 +11,6 @@ function searchBar() {
   const navigate = useNavigate();
   const location = useLocation();
 
-  // const [results, setResults] = useState<Product[]>([]);
-
   const handleSearch = async (e: any) => {
     e.preventDefault();
     if (!query.trim()) return;
@@ -26,22 +24,10 @@ function searchBar() {
     if (q) setQuery(q);
   });
 
-  //   try {
-  //     const res = await fetch(`http://localhost:5000/search?q=${query}`);
-  //     if (!res.ok) throw new Error("Network response was not ok");
-
-  //     const data: Product[] = await res.json();
-  //     setResults(data);
-  //   }  catch (err) {
-  //     console.error("Caught error: ", err)
-  //     setResults([]);
-  //   }
-  // }
-
   return (
     <section className="searchContainer">
       <form onSubmit={handleSearch}>
-        <div className="icon1">
+        <button type="submit" className="icon1">
           <svg
             width="20"
             height="20"
@@ -64,7 +50,7 @@ function searchBar() {
               </clipPath>
             </defs>
           </svg>
-        </div>
+        </button>
         <input
           className="searchBar"
           type="text"
@@ -72,7 +58,7 @@ function searchBar() {
           value={query}
           onChange={(e) => setQuery(e.target.value)}
         />
-        <button type="submit" className="icon2">
+        <button className="icon2">
           <svg
             width="20"
             height="20"

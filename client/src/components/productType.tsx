@@ -15,13 +15,18 @@ function productType() {
     <>
       <div className="product-list">
         <p className="t1">Pagkaun ug ang mga Mapalit</p>
+        <div className="product-container">
         {/* map. */}
         {products.map((product: Product) => (
-          <div key={product.id}>
+          <div className="product-type" key={product.id}>
+            <div className="product-img">
+              <img src={product.image} alt={product.product} />
+            </div>
             <p className="t2">{product.product}</p>
           </div>
         ))}
         {/* <ProductTypeChip /> */}
+        </div>
       </div>
     </>
   );

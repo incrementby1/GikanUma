@@ -4,23 +4,14 @@ function banner() {
       <div className="bannerContainer">
         <div className="banner">
           <div className="banner-msg">
-            <p className="t1">
-              Pangapil <br />
-              na!
-            </p>
+            <p className="t1">Pangapil na!</p>
             <p className="t2">
-              There are many variations of passages of Lorem Ipsum available,
-              but the majority have suffered alteration in some form, by
-              injected humour, or randomised words which don't look even
-              slightly believable. If you are going to use a passage of Lorem
-              Ipsum, you need to be sure there isn't anything embarrassing
-              hidden in the middle of text. All the Lorem Ipsum generators on
-              the Internet tend to repeat predefined chunks as necessary, making
-              this the first true generator on the Internet. It uses a
-              dictionary of over 200 Latin words, combined with a handful of
-              model sentence structures, to generate Lorem Ipsum which looks
-              reasonable. The generated Lorem Ipsum is therefore always free
-              from repetition, injected humour, or non-characteristic words etc.
+              Mga igsoon nga mag-uuma, panahon na para diretso mo baligya sa mga
+              consumers! Gusto nimo nga ibaligya imong prutas, gulay, ug uban pa
+              diretso sa mga tawo ug walay gikuha nga middleman? Mas taas imong
+              kita, mas dali imong pagbaligya, ug walay hassle sa retail o
+              wholesale prices. Apil na sa [Platform Name] ug sugdi na imong
+              e-commerce journey karon!
             </p>
           </div>
           <div className="banner-img"></div>

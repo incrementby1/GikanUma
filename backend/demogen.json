@@ -1,502 +1,502 @@
 [
-    {
-        "farmer": "Bonifacio Salazar",
-        "location": "Malaybalay, Bukidnon",
-        "product": "peanuts",
-        "rating": 3.9,
-        "number_of_ratings": 640,
-        "image_url": "peanuts.jpg",
-        "farmgate_price": 44.89,
-        "market_price": 77.42
-    },
-    {
-        "farmer": "Modesto Hernandez",
-        "location": "San Mateo, Isabela",
-        "product": "saba",
-        "rating": 4.0,
-        "number_of_ratings": 510,
-        "image_url": "saba.jpg",
-        "farmgate_price": 16.44,
-        "market_price": 26.42
-    },
-    {
-        "farmer": "Modesto Hernandez",
-        "location": "Gapan, Nueva Ecija",
-        "product": "sitaw",
-        "rating": 3.3,
-        "number_of_ratings": 604,
-        "image_url": "sitaw.jpg",
-        "farmgate_price": 27.66,
-        "market_price": 58.76
-    },
-    {
-        "farmer": "Antonio Villanueva",
-        "location": "Koronadal, South Cotabato",
-        "product": "niyog",
-        "rating": 4.1,
-        "number_of_ratings": 637,
-        "image_url": "niyog.jpg",
-        "farmgate_price": 10.82,
-        "market_price": 24.24
-    },
-    {
-        "farmer": "Prospero Hernandez",
-        "location": "Pili, Camarines Sur",
-        "product": "ube",
-        "rating": 3.7,
-        "number_of_ratings": 652,
-        "image_url": "ube.jpg",
-        "farmgate_price": 68.38,
-        "market_price": 115.86
-    },
-    {
-        "farmer": "Eduardo Espiritu",
-        "location": "Polomolok, South Cotabato",
-        "product": "saba",
-        "rating": 3.9,
-        "number_of_ratings": 458,
-        "image_url": "saba.jpg",
-        "farmgate_price": 15.62,
-        "market_price": 27.12
-    },
-    {
-        "farmer": "Modesto Gonzales",
-        "location": "La Trinidad, Benguet",
-        "product": "garlic",
-        "rating": 4.2,
-        "number_of_ratings": 693,
-        "image_url": "garlic.jpg",
-        "farmgate_price": 80.89,
-        "market_price": 136.44
-    },
-    {
-        "farmer": "Ricardo Gonzales",
-        "location": "Munoz, Nueva Ecija",
-        "product": "palay",
-        "rating": 3.6,
-        "number_of_ratings": 634,
-        "image_url": "palay.jpg",
-        "farmgate_price": 19.1,
-        "market_price": 42.11
-    },
-    {
-        "farmer": "Oscar Dela Cruz",
-        "location": "Valencia, Bukidnon",
-        "product": "lettuce",
-        "rating": 4.7,
-        "number_of_ratings": 514,
-        "image_url": "lettuce.jpg",
-        "farmgate_price": 65.11,
-        "market_price": 133.74
-    },
-    {
-        "farmer": "Victor Agoncillo",
-        "location": "Kabacan, Cotabato",
-        "product": "ube",
-        "rating": 4.9,
-        "number_of_ratings": 489,
-        "image_url": "ube.jpg",
-        "farmgate_price": 62.44,
-        "market_price": 111.03
-    },
-    {
-        "farmer": "Alfredo Reyes",
-        "location": "Pili, Camarines Sur",
-        "product": "sigarilyas",
-        "rating": 3.2,
-        "number_of_ratings": 403,
-        "image_url": "sigarilyas.jpg",
-        "farmgate_price": 36.85,
-        "market_price": 63.39
-    },
-    {
-        "farmer": "Wilfredo Mercado",
-        "location": "Pili, Camarines Sur",
-        "product": "lettuce",
-        "rating": 4.1,
-        "number_of_ratings": 664,
-        "image_url": "lettuce.jpg",
-        "farmgate_price": 76.45,
-        "market_price": 133.95
-    },
-    {
-        "farmer": "Danilo Garcia",
-        "location": "Pili, Camarines Sur",
-        "product": "cassava",
-        "rating": 3.8,
-        "number_of_ratings": 461,
-        "image_url": "cassava.jpg",
-        "farmgate_price": 12.86,
-        "market_price": 20.29
-    },
-    {
-        "farmer": "Eduardo Garcia",
-        "location": "Ormoc, Leyte",
-        "product": "gabi",
-        "rating": 3.7,
-        "number_of_ratings": 687,
-        "image_url": "gabi.jpg",
-        "farmgate_price": 30.61,
-        "market_price": 54.52
-    },
-    {
-        "farmer": "Rogelio Espiritu",
-        "location": "Gapan, Nueva Ecija",
-        "product": "cabbage",
-        "rating": 3.5,
-        "number_of_ratings": 602,
-        "image_url": "cabbage.jpg",
-        "farmgate_price": 22.9,
-        "market_price": 43.05
-    },
-    {
-        "farmer": "Arturo Garcia",
-        "location": "Kidapawan, Cotabato",
-        "product": "ube",
-        "rating": 3.2,
-        "number_of_ratings": 452,
-        "image_url": "ube.jpg",
-        "farmgate_price": 67.36,
-        "market_price": 129.03
-    },
-    {
-        "farmer": "Jaime Dela Cruz",
-        "location": "Digos, Davao del Sur",
-        "product": "onion",
-        "rating": 4.3,
-        "number_of_ratings": 576,
-        "image_url": "onion.jpg",
-        "farmgate_price": 43.37,
-        "market_price": 82.96
-    },
-    {
-        "farmer": "Jaime Gonzales",
-        "location": "Panabo, Davao del Norte",
-        "product": "lettuce",
-        "rating": 4.6,
-        "number_of_ratings": 471,
-        "image_url": "lettuce.jpg",
-        "farmgate_price": 71.39,
-        "market_price": 118.16
-    },
-    {
-        "farmer": "Federico Ramos",
-        "location": "Sariaya, Quezon",
-        "product": "palay",
-        "rating": 4.7,
-        "number_of_ratings": 462,
-        "image_url": "palay.jpg",
-        "farmgate_price": 19.79,
-        "market_price": 46.15
-    },
-    {
-        "farmer": "Bonifacio Castro",
-        "location": "Ormoc, Leyte",
-        "product": "pepper",
-        "rating": 4.2,
-        "number_of_ratings": 674,
-        "image_url": "pepper.jpg",
-        "farmgate_price": 94.29,
-        "market_price": 166.92
-    },
-    {
-        "farmer": "Rogelio Rodriguez",
-        "location": "Tagum, Davao del Norte",
-        "product": "lettuce",
-        "rating": 3.9,
-        "number_of_ratings": 491,
-        "image_url": "lettuce.jpg",
-        "farmgate_price": 63.3,
-        "market_price": 131.81
-    },
-    {
-        "farmer": "Jose Castillo",
-        "location": "Lucban, Quezon",
-        "product": "pepper",
-        "rating": 3.9,
-        "number_of_ratings": 536,
-        "image_url": "pepper.jpg",
-        "farmgate_price": 96.43,
-        "market_price": 172.43
-    },
-    {
-        "farmer": "Ramon Agoncillo",
-        "location": "Dumaguete, Negros Oriental",
-        "product": "peanuts",
-        "rating": 4.0,
-        "number_of_ratings": 652,
-        "image_url": "peanuts.jpg",
-        "farmgate_price": 48.39,
-        "market_price": 79.79
-    },
-    {
-        "farmer": "Eduardo Castillo",
-        "location": "San Mateo, Isabela",
-        "product": "ginger",
-        "rating": 3.5,
-        "number_of_ratings": 532,
-        "image_url": "ginger.jpg",
-        "farmgate_price": 54.21,
-        "market_price": 108.29
-    },
-    {
-        "farmer": "Vicente Villanueva",
-        "location": "Kabacan, Cotabato",
-        "product": "mungo",
-        "rating": 4.4,
-        "number_of_ratings": 406,
-        "image_url": "mungo.jpg",
-        "farmgate_price": 50.99,
-        "market_price": 81.26
-    },
-    {
-        "farmer": "Domingo Aquino",
-        "location": "La Trinidad, Benguet",
-        "product": "onion",
-        "rating": 4.6,
-        "number_of_ratings": 498,
-        "image_url": "onion.jpg",
-        "farmgate_price": 40.84,
-        "market_price": 94.93
-    },
-    {
-        "farmer": "Eduardo Belmonte",
-        "location": "San Jose, Occidental Mindoro",
-        "product": "mungo",
-        "rating": 3.8,
-        "number_of_ratings": 499,
-        "image_url": "mungo.jpg",
-        "farmgate_price": 47.34,
-        "market_price": 77.06
-    },
-    {
-        "farmer": "Victor Pascual",
-        "location": "La Trinidad, Benguet",
-        "product": "kalabasa",
-        "rating": 3.8,
-        "number_of_ratings": 484,
-        "image_url": "kalabasa.jpg",
-        "farmgate_price": 13.95,
-        "market_price": 30.94
-    },
-    {
-        "farmer": "Danilo Mercado",
-        "location": "Gapan, Nueva Ecija",
-        "product": "sitaw",
-        "rating": 4.1,
-        "number_of_ratings": 607,
-        "image_url": "sitaw.jpg",
-        "farmgate_price": 30.9,
-        "market_price": 51.3
-    },
-    {
-        "farmer": "Roberto Macaraig",
-        "location": "Digos, Davao del Sur",
-        "product": "sigarilyas",
-        "rating": 4.1,
-        "number_of_ratings": 628,
-        "image_url": "sigarilyas.jpg",
-        "farmgate_price": 33.77,
-        "market_price": 55.84
-    },
-    {
-        "farmer": "Jose Castro",
-        "location": "Malaybalay, Bukidnon",
-        "product": "ginger",
-        "rating": 4.0,
-        "number_of_ratings": 484,
-        "image_url": "ginger.jpg",
-        "farmgate_price": 61.67,
-        "market_price": 117.77
-    },
-    {
-        "farmer": "Oscar Soriano",
-        "location": "Tagum, Davao del Norte",
-        "product": "lettuce",
-        "rating": 4.4,
-        "number_of_ratings": 420,
-        "image_url": "lettuce.jpg",
-        "farmgate_price": 76.21,
-        "market_price": 117.25
-    },
-    {
-        "farmer": "Modesto Sanchez",
-        "location": "Legazpi, Albay",
-        "product": "sigarilyas",
-        "rating": 3.9,
-        "number_of_ratings": 450,
-        "image_url": "sigarilyas.jpg",
-        "farmgate_price": 37.59,
-        "market_price": 61.44
-    },
-    {
-        "farmer": "Jaime Santos",
-        "location": "Lipa, Batangas",
-        "product": "garlic",
-        "rating": 3.5,
-        "number_of_ratings": 650,
-        "image_url": "garlic.jpg",
-        "farmgate_price": 87.77,
-        "market_price": 137.56
-    },
-    {
-        "farmer": "Jose Agoncillo",
-        "location": "Valencia, Bukidnon",
-        "product": "kalabasa",
-        "rating": 4.4,
-        "number_of_ratings": 562,
-        "image_url": "kalabasa.jpg",
-        "farmgate_price": 14.68,
-        "market_price": 31.19
-    },
-    {
-        "farmer": "Oscar Flores",
-        "location": "Digos, Davao del Sur",
-        "product": "saba",
-        "rating": 4.3,
-        "number_of_ratings": 449,
-        "image_url": "saba.jpg",
-        "farmgate_price": 13.55,
-        "market_price": 30.68
-    },
-    {
-        "farmer": "Diosdado Bautista",
-        "location": "Tanauan, Batangas",
-        "product": "mais",
-        "rating": 4.8,
-        "number_of_ratings": 538,
-        "image_url": "mais.jpg",
-        "farmgate_price": 17.38,
-        "market_price": 35.78
-    },
-    {
-        "farmer": "Wilfredo Tolentino",
-        "location": "Digos, Davao del Sur",
-        "product": "mais",
-        "rating": 3.9,
-        "number_of_ratings": 534,
-        "image_url": "mais.jpg",
-        "farmgate_price": 18.7,
-        "market_price": 38.15
-    },
-    {
-        "farmer": "Arturo Flores",
-        "location": "Kabacan, Cotabato",
-        "product": "ube",
-        "rating": 3.9,
-        "number_of_ratings": 692,
-        "image_url": "ube.jpg",
-        "farmgate_price": 70.37,
-        "market_price": 118.34
-    },
-    {
-        "farmer": "Rodolfo Pascual",
-        "location": "Malaybalay, Bukidnon",
-        "product": "garlic",
-        "rating": 4.2,
-        "number_of_ratings": 525,
-        "image_url": "garlic.jpg",
-        "farmgate_price": 81.36,
-        "market_price": 135.13
-    },
-    {
-        "farmer": "Danilo Castillo",
-        "location": "Munoz, Nueva Ecija",
-        "product": "sitaw",
-        "rating": 4.3,
-        "number_of_ratings": 594,
-        "image_url": "sitaw.jpg",
-        "farmgate_price": 29.91,
-        "market_price": 50.97
-    },
-    {
-        "farmer": "Domingo Mendoza",
-        "location": "Legazpi, Albay",
-        "product": "sigarilyas",
-        "rating": 4.3,
-        "number_of_ratings": 598,
-        "image_url": "sigarilyas.jpg",
-        "farmgate_price": 38.44,
-        "market_price": 58.42
-    },
-    {
-        "farmer": "Alfredo Espiritu",
-        "location": "Kabacan, Cotabato",
-        "product": "cabbage",
-        "rating": 4.3,
-        "number_of_ratings": 610,
-        "image_url": "cabbage.jpg",
-        "farmgate_price": 25.26,
-        "market_price": 45.62
-    },
-    {
-        "farmer": "Arturo Dizon",
-        "location": "Buguias, Benguet",
-        "product": "onion",
-        "rating": 3.5,
-        "number_of_ratings": 684,
-        "image_url": "onion.jpg",
-        "farmgate_price": 41.48,
-        "market_price": 85.1
-    },
-    {
-        "farmer": "Fernando Gonzales",
-        "location": "Gapan, Nueva Ecija",
-        "product": "potatoes",
-        "rating": 4.4,
-        "number_of_ratings": 430,
-        "image_url": "potatoes.jpg",
-        "farmgate_price": 36.05,
-        "market_price": 61.58
-    },
-    {
-        "farmer": "Fernando Santiago",
-        "location": "Ormoc, Leyte",
-        "product": "sitaw",
-        "rating": 4.0,
-        "number_of_ratings": 409,
-        "image_url": "sitaw.jpg",
-        "farmgate_price": 28.47,
-        "market_price": 56.61
-    },
-    {
-        "farmer": "Victor Dizon",
-        "location": "Tanauan, Batangas",
-        "product": "kalabasa",
-        "rating": 3.5,
-        "number_of_ratings": 484,
-        "image_url": "kalabasa.jpg",
-        "farmgate_price": 16.27,
-        "market_price": 32.82
-    },
-    {
-        "farmer": "Arturo Espiritu",
-        "location": "Panabo, Davao del Norte",
-        "product": "mais",
-        "rating": 3.4,
-        "number_of_ratings": 582,
-        "image_url": "mais.jpg",
-        "farmgate_price": 16.44,
-        "market_price": 34.27
-    },
-    {
-        "farmer": "Fernando Santos",
-        "location": "Baybay, Leyte",
-        "product": "ginger",
-        "rating": 3.9,
-        "number_of_ratings": 568,
-        "image_url": "ginger.jpg",
-        "farmgate_price": 54.35,
-        "market_price": 113.8
-    },
-    {
-        "farmer": "Roberto Aquino",
-        "location": "Ormoc, Leyte",
-        "product": "potatoes",
-        "rating": 4.7,
-        "number_of_ratings": 666,
-        "image_url": "potatoes.jpg",
-        "farmgate_price": 34.41,
-        "market_price": 71.37
-    }
+  {
+    "farmer": "Bonifacio Salazar",
+    "location": "Malaybalay, Bukidnon",
+    "product": "peanuts",
+    "rating": 3.9,
+    "number_of_ratings": 640,
+    "image": "peanuts.jpg",
+    "farmgate_price": 44.89,
+    "market_price": 77.42
+  },
+  {
+    "farmer": "Modesto Hernandez",
+    "location": "San Mateo, Isabela",
+    "product": "saba",
+    "rating": 4.0,
+    "number_of_ratings": 510,
+    "image": "saba.jpg",
+    "farmgate_price": 16.44,
+    "market_price": 26.42
+  },
+  {
+    "farmer": "Modesto Hernandez",
+    "location": "Gapan, Nueva Ecija",
+    "product": "sitaw",
+    "rating": 3.3,
+    "number_of_ratings": 604,
+    "image": "sitaw.jpg",
+    "farmgate_price": 27.66,
+    "market_price": 58.76
+  },
+  {
+    "farmer": "Antonio Villanueva",
+    "location": "Koronadal, South Cotabato",
+    "product": "niyog",
+    "rating": 4.1,
+    "number_of_ratings": 637,
+    "image": "niyog.jpg",
+    "farmgate_price": 10.82,
+    "market_price": 24.24
+  },
+  {
+    "farmer": "Prospero Hernandez",
+    "location": "Pili, Camarines Sur",
+    "product": "ube",
+    "rating": 3.7,
+    "number_of_ratings": 652,
+    "image": "ube.jpg",
+    "farmgate_price": 68.38,
+    "market_price": 115.86
+  },
+  {
+    "farmer": "Eduardo Espiritu",
+    "location": "Polomolok, South Cotabato",
+    "product": "saba",
+    "rating": 3.9,
+    "number_of_ratings": 458,
+    "image": "saba.jpg",
+    "farmgate_price": 15.62,
+    "market_price": 27.12
+  },
+  {
+    "farmer": "Modesto Gonzales",
+    "location": "La Trinidad, Benguet",
+    "product": "garlic",
+    "rating": 4.2,
+    "number_of_ratings": 693,
+    "image": "garlic.jpg",
+    "farmgate_price": 80.89,
+    "market_price": 136.44
+  },
+  {
+    "farmer": "Ricardo Gonzales",
+    "location": "Munoz, Nueva Ecija",
+    "product": "palay",
+    "rating": 3.6,
+    "number_of_ratings": 634,
+    "image": "palay.jpg",
+    "farmgate_price": 19.1,
+    "market_price": 42.11
+  },
+  {
+    "farmer": "Oscar Dela Cruz",
+    "location": "Valencia, Bukidnon",
+    "product": "lettuce",
+    "rating": 4.7,
+    "number_of_ratings": 514,
+    "image": "lettuce.jpg",
+    "farmgate_price": 65.11,
+    "market_price": 133.74
+  },
+  {
+    "farmer": "Victor Agoncillo",
+    "location": "Kabacan, Cotabato",
+    "product": "ube",
+    "rating": 4.9,
+    "number_of_ratings": 489,
+    "image": "ube.jpg",
+    "farmgate_price": 62.44,
+    "market_price": 111.03
+  },
+  {
+    "farmer": "Alfredo Reyes",
+    "location": "Pili, Camarines Sur",
+    "product": "sigarilyas",
+    "rating": 3.2,
+    "number_of_ratings": 403,
+    "image": "sigarilyas.jpg",
+    "farmgate_price": 36.85,
+    "market_price": 63.39
+  },
+  {
+    "farmer": "Wilfredo Mercado",
+    "location": "Pili, Camarines Sur",
+    "product": "lettuce",
+    "rating": 4.1,
+    "number_of_ratings": 664,
+    "image": "lettuce.jpg",
+    "farmgate_price": 76.45,
+    "market_price": 133.95
+  },
+  {
+    "farmer": "Danilo Garcia",
+    "location": "Pili, Camarines Sur",
+    "product": "cassava",
+    "rating": 3.8,
+    "number_of_ratings": 461,
+    "image": "cassava.jpg",
+    "farmgate_price": 12.86,
+    "market_price": 20.29
+  },
+  {
+    "farmer": "Eduardo Garcia",
+    "location": "Ormoc, Leyte",
+    "product": "gabi",
+    "rating": 3.7,
+    "number_of_ratings": 687,
+    "image": "gabi.jpg",
+    "farmgate_price": 30.61,
+    "market_price": 54.52
+  },
+  {
+    "farmer": "Rogelio Espiritu",
+    "location": "Gapan, Nueva Ecija",
+    "product": "cabbage",
+    "rating": 3.5,
+    "number_of_ratings": 602,
+    "image": "cabbage.jpg",
+    "farmgate_price": 22.9,
+    "market_price": 43.05
+  },
+  {
+    "farmer": "Arturo Garcia",
+    "location": "Kidapawan, Cotabato",
+    "product": "ube",
+    "rating": 3.2,
+    "number_of_ratings": 452,
+    "image": "ube.jpg",
+    "farmgate_price": 67.36,
+    "market_price": 129.03
+  },
+  {
+    "farmer": "Jaime Dela Cruz",
+    "location": "Digos, Davao del Sur",
+    "product": "onion",
+    "rating": 4.3,
+    "number_of_ratings": 576,
+    "image": "onion.jpg",
+    "farmgate_price": 43.37,
+    "market_price": 82.96
+  },
+  {
+    "farmer": "Jaime Gonzales",
+    "location": "Panabo, Davao del Norte",
+    "product": "lettuce",
+    "rating": 4.6,
+    "number_of_ratings": 471,
+    "image": "lettuce.jpg",
+    "farmgate_price": 71.39,
+    "market_price": 118.16
+  },
+  {
+    "farmer": "Federico Ramos",
+    "location": "Sariaya, Quezon",
+    "product": "palay",
+    "rating": 4.7,
+    "number_of_ratings": 462,
+    "image": "palay.jpg",
+    "farmgate_price": 19.79,
+    "market_price": 46.15
+  },
+  {
+    "farmer": "Bonifacio Castro",
+    "location": "Ormoc, Leyte",
+    "product": "pepper",
+    "rating": 4.2,
+    "number_of_ratings": 674,
+    "image": "pepper.jpg",
+    "farmgate_price": 94.29,
+    "market_price": 166.92
+  },
+  {
+    "farmer": "Rogelio Rodriguez",
+    "location": "Tagum, Davao del Norte",
+    "product": "lettuce",
+    "rating": 3.9,
+    "number_of_ratings": 491,
+    "image": "lettuce.jpg",
+    "farmgate_price": 63.3,
+    "market_price": 131.81
+  },
+  {
+    "farmer": "Jose Castillo",
+    "location": "Lucban, Quezon",
+    "product": "pepper",
+    "rating": 3.9,
+    "number_of_ratings": 536,
+    "image": "pepper.jpg",
+    "farmgate_price": 96.43,
+    "market_price": 172.43
+  },
+  {
+    "farmer": "Ramon Agoncillo",
+    "location": "Dumaguete, Negros Oriental",
+    "product": "peanuts",
+    "rating": 4.0,
+    "number_of_ratings": 652,
+    "image": "peanuts.jpg",
+    "farmgate_price": 48.39,
+    "market_price": 79.79
+  },
+  {
+    "farmer": "Eduardo Castillo",
+    "location": "San Mateo, Isabela",
+    "product": "ginger",
+    "rating": 3.5,
+    "number_of_ratings": 532,
+    "image": "ginger.jpg",
+    "farmgate_price": 54.21,
+    "market_price": 108.29
+  },
+  {
+    "farmer": "Vicente Villanueva",
+    "location": "Kabacan, Cotabato",
+    "product": "mungo",
+    "rating": 4.4,
+    "number_of_ratings": 406,
+    "image": "mungo.jpg",
+    "farmgate_price": 50.99,
+    "market_price": 81.26
+  },
+  {
+    "farmer": "Domingo Aquino",
+    "location": "La Trinidad, Benguet",
+    "product": "onion",
+    "rating": 4.6,
+    "number_of_ratings": 498,
+    "image": "onion.jpg",
+    "farmgate_price": 40.84,
+    "market_price": 94.93
+  },
+  {
+    "farmer": "Eduardo Belmonte",
+    "location": "San Jose, Occidental Mindoro",
+    "product": "mungo",
+    "rating": 3.8,
+    "number_of_ratings": 499,
+    "image": "mungo.jpg",
+    "farmgate_price": 47.34,
+    "market_price": 77.06
+  },
+  {
+    "farmer": "Victor Pascual",
+    "location": "La Trinidad, Benguet",
+    "product": "kalabasa",
+    "rating": 3.8,
+    "number_of_ratings": 484,
+    "image": "kalabasa.jpg",
+    "farmgate_price": 13.95,
+    "market_price": 30.94
+  },
+  {
+    "farmer": "Danilo Mercado",
+    "location": "Gapan, Nueva Ecija",
+    "product": "sitaw",
+    "rating": 4.1,
+    "number_of_ratings": 607,
+    "image": "sitaw.jpg",
+    "farmgate_price": 30.9,
+    "market_price": 51.3
+  },
+  {
+    "farmer": "Roberto Macaraig",
+    "location": "Digos, Davao del Sur",
+    "product": "sigarilyas",
+    "rating": 4.1,
+    "number_of_ratings": 628,
+    "image": "sigarilyas.jpg",
+    "farmgate_price": 33.77,
+    "market_price": 55.84
+  },
+  {
+    "farmer": "Jose Castro",
+    "location": "Malaybalay, Bukidnon",
+    "product": "ginger",
+    "rating": 4.0,
+    "number_of_ratings": 484,
+    "image": "ginger.jpg",
+    "farmgate_price": 61.67,
+    "market_price": 117.77
+  },
+  {
+    "farmer": "Oscar Soriano",
+    "location": "Tagum, Davao del Norte",
+    "product": "lettuce",
+    "rating": 4.4,
+    "number_of_ratings": 420,
+    "image": "lettuce.jpg",
+    "farmgate_price": 76.21,
+    "market_price": 117.25
+  },
+  {
+    "farmer": "Modesto Sanchez",
+    "location": "Legazpi, Albay",
+    "product": "sigarilyas",
+    "rating": 3.9,
+    "number_of_ratings": 450,
+    "image": "sigarilyas.jpg",
+    "farmgate_price": 37.59,
+    "market_price": 61.44
+  },
+  {
+    "farmer": "Jaime Santos",
+    "location": "Lipa, Batangas",
+    "product": "garlic",
+    "rating": 3.5,
+    "number_of_ratings": 650,
+    "image": "garlic.jpg",
+    "farmgate_price": 87.77,
+    "market_price": 137.56
+  },
+  {
+    "farmer": "Jose Agoncillo",
+    "location": "Valencia, Bukidnon",
+    "product": "kalabasa",
+    "rating": 4.4,
+    "number_of_ratings": 562,
+    "image": "kalabasa.jpg",
+    "farmgate_price": 14.68,
+    "market_price": 31.19
+  },
+  {
+    "farmer": "Oscar Flores",
+    "location": "Digos, Davao del Sur",
+    "product": "saba",
+    "rating": 4.3,
+    "number_of_ratings": 449,
+    "image": "saba.jpg",
+    "farmgate_price": 13.55,
+    "market_price": 30.68
+  },
+  {
+    "farmer": "Diosdado Bautista",
+    "location": "Tanauan, Batangas",
+    "product": "mais",
+    "rating": 4.8,
+    "number_of_ratings": 538,
+    "image": "mais.jpg",
+    "farmgate_price": 17.38,
+    "market_price": 35.78
+  },
+  {
+    "farmer": "Wilfredo Tolentino",
+    "location": "Digos, Davao del Sur",
+    "product": "mais",
+    "rating": 3.9,
+    "number_of_ratings": 534,
+    "image": "mais.jpg",
+    "farmgate_price": 18.7,
+    "market_price": 38.15
+  },
+  {
+    "farmer": "Arturo Flores",
+    "location": "Kabacan, Cotabato",
+    "product": "ube",
+    "rating": 3.9,
+    "number_of_ratings": 692,
+    "image": "ube.jpg",
+    "farmgate_price": 70.37,
+    "market_price": 118.34
+  },
+  {
+    "farmer": "Rodolfo Pascual",
+    "location": "Malaybalay, Bukidnon",
+    "product": "garlic",
+    "rating": 4.2,
+    "number_of_ratings": 525,
+    "image": "garlic.jpg",
+    "farmgate_price": 81.36,
+    "market_price": 135.13
+  },
+  {
+    "farmer": "Danilo Castillo",
+    "location": "Munoz, Nueva Ecija",
+    "product": "sitaw",
+    "rating": 4.3,
+    "number_of_ratings": 594,
+    "image": "sitaw.jpg",
+    "farmgate_price": 29.91,
+    "market_price": 50.97
+  },
+  {
+    "farmer": "Domingo Mendoza",
+    "location": "Legazpi, Albay",
+    "product": "sigarilyas",
+    "rating": 4.3,
+    "number_of_ratings": 598,
+    "image": "sigarilyas.jpg",
+    "farmgate_price": 38.44,
+    "market_price": 58.42
+  },
+  {
+    "farmer": "Alfredo Espiritu",
+    "location": "Kabacan, Cotabato",
+    "product": "cabbage",
+    "rating": 4.3,
+    "number_of_ratings": 610,
+    "image": "cabbage.jpg",
+    "farmgate_price": 25.26,
+    "market_price": 45.62
+  },
+  {
+    "farmer": "Arturo Dizon",
+    "location": "Buguias, Benguet",
+    "product": "onion",
+    "rating": 3.5,
+    "number_of_ratings": 684,
+    "image": "onion.jpg",
+    "farmgate_price": 41.48,
+    "market_price": 85.1
+  },
+  {
+    "farmer": "Fernando Gonzales",
+    "location": "Gapan, Nueva Ecija",
+    "product": "potatoes",
+    "rating": 4.4,
+    "number_of_ratings": 430,
+    "image": "potatoes.jpg",
+    "farmgate_price": 36.05,
+    "market_price": 61.58
+  },
+  {
+    "farmer": "Fernando Santiago",
+    "location": "Ormoc, Leyte",
+    "product": "sitaw",
+    "rating": 4.0,
+    "number_of_ratings": 409,
+    "image": "sitaw.jpg",
+    "farmgate_price": 28.47,
+    "market_price": 56.61
+  },
+  {
+    "farmer": "Victor Dizon",
+    "location": "Tanauan, Batangas",
+    "product": "kalabasa",
+    "rating": 3.5,
+    "number_of_ratings": 484,
+    "image": "kalabasa.jpg",
+    "farmgate_price": 16.27,
+    "market_price": 32.82
+  },
+  {
+    "farmer": "Arturo Espiritu",
+    "location": "Panabo, Davao del Norte",
+    "product": "mais",
+    "rating": 3.4,
+    "number_of_ratings": 582,
+    "image": "mais.jpg",
+    "farmgate_price": 16.44,
+    "market_price": 34.27
+  },
+  {
+    "farmer": "Fernando Santos",
+    "location": "Baybay, Leyte",
+    "product": "ginger",
+    "rating": 3.9,
+    "number_of_ratings": 568,
+    "image": "ginger.jpg",
+    "farmgate_price": 54.35,
+    "market_price": 113.8
+  },
+  {
+    "farmer": "Roberto Aquino",
+    "location": "Ormoc, Leyte",
+    "product": "potatoes",
+    "rating": 4.7,
+    "number_of_ratings": 666,
+    "image": "potatoes.jpg",
+    "farmgate_price": 34.41,
+    "market_price": 71.37
+  }
 ]
