@@ -1,5 +1,5 @@
-import { useState } from "react";
-import { useLocation, useNavigate } from "react-router-dom";
+import { useState } from 'react';
+import { useLocation, useNavigate } from 'react-router-dom';
 
 interface Product {
   id: number;
@@ -7,7 +7,7 @@ interface Product {
 }
 
 function searchBar() {
-  const [query, setQuery] = useState<string>("");
+  const [query, setQuery] = useState<string>('');
   const navigate = useNavigate();
   const location = useLocation();
 
@@ -20,7 +20,7 @@ function searchBar() {
 
   useState(() => {
     const params = new URLSearchParams(location.search);
-    const q = params.get("q");
+    const q = params.get('q');
     if (q) setQuery(q);
   });
 

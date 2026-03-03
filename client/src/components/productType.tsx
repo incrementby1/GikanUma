@@ -1,6 +1,6 @@
 // import ProductTypeChip from "./productTypeChip.tsx";
-import { use, useState } from "react";
-import products from "../../../backend/product.json";
+import { use, useState } from 'react';
+import products from '../../../backend/product.json';
 
 interface Product {
   id: number;
@@ -16,16 +16,16 @@ function productType() {
       <div className="product-list">
         <p className="t1">Pagkaun ug ang mga Mapalit</p>
         <div className="product-container">
-        {/* map. */}
-        {products.map((product: Product) => (
-          <div className="product-type" key={product.id}>
-            <div className="product-img">
-              <img src={product.image} alt={product.product} />
+          {/* map. */}
+          {products.map((product: Product) => (
+            <div className="product-type" key={product.id}>
+              <div className="product-img">
+                <img src={product.image} alt={product.product} />
+              </div>
+              <p className="t2">{product.product}</p>
             </div>
-            <p className="t2">{product.product}</p>
-          </div>
-        ))}
-        {/* <ProductTypeChip /> */}
+          ))}
+          {/* <ProductTypeChip /> */}
         </div>
       </div>
     </>
